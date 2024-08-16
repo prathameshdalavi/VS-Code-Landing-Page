@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 0px 50px 0px 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.navb {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 10px 0px
+}
+
+.navb .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    font-weight: 550;   
+}
+
+.navb a {
+    color: #9ba3b4;
+    text-decoration: none;
+}
+
+.navb a:hover {
+    color: #dbe1ec;
+}
+
+.title-name {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title-name img{
+    height: 25px;
+}
+
+.down{
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 15px;
+}
+
+.down button{
+    padding: 5px 6px;
+    justify-content: center;
+    margin-left: 40px;
+    background-color: black;
+    color: rgb(87, 87, 87);
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+
+.right button {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.new{
+    background-color: rgb(37, 36, 36);
+    color: rgb(96, 94, 94);
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.new1{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+.big{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    padding-top: 30px;
+}
+.link_for_dow{
+    margin-top: 30px;
+}
+.link_for_dow button{
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.feature_list{
+    display: flex;
+    padding-top: 20px;
+    color: grey;
+}
+.feature_list a{
+    color: rgb(31, 85, 172);
+    text-decoration: underline;
+}
+.small{
+    color: grey;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.small a{
+    color: rgb(31, 85, 172);
+    text-decoration:underline;
+}
+.secondleft{
+    padding-left: 100px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.secondright img{
+    height: 500px;
+}
+
